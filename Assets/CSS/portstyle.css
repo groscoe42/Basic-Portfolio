@@ -1,34 +1,39 @@
-.submain {height:960px;}
-.ihold {overflow:hidden;
-    height:150px;
+.main {height:75%;
+    /* overflow:hidden; */
+}
+.ihold {
+    box-sizing: border-box;
+    float:left;
+    /* overflow:hidden; */
+    margin:10px;
+    width:31%;
+    height:28%;
     box-shadow:5px 5px 5px #777777}
-#ih1 {position:absolute;
-    top:127.5px;
-    left:127.5px;}
-#ih2 {position:absolute;
-    top:127.5px;
-    left:405px;}
-#ih3 {position:absolute;
-    top:127.5px;
-    left:682.5px}
-#ih4 {position:absolute;
-    top:405px;
-    left:127.5px;}
-#ih5 {position:absolute;
-    top:405px;
-    left:405px;}
-#ih6 {position:absolute;
-    top:405px;
-    left:682.5px}
-#ih7 {position:absolute;
-    top:682.5px;
-    left:127.5px;}
-#ih8 {position:absolute;
-    top:682.5px;
-    left:405px;}
-#ih9 {position:absolute;
-    top:682.5px;
-    left:682.5px;}
+
+#ih1 {
+    
+    }
+#ih2 {
+    
+    }
+#ih3 {
+    
+    }
+#ih4 {
+    clear:left;
+    }
+#ih5 {
+    }
+#ih6 {
+    
+    }
+#ih7 {
+    clear:left;
+    }
+#ih8 {
+    }
+#ih9 {
+    }
 .itext{background-color:#4aaaa5;
     color:#dddddd;
     padding:2px 10px 2px 10px;
@@ -42,3 +47,4 @@
 #it7 {bottom:45px;}
 #it8 {bottom:45px;}
 #it9 {bottom:45px;}
+/* check gitlab change position to floats */

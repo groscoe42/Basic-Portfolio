@@ -1,18 +1,31 @@
+
+html,
+body {height:100%;}
 body {background-image: url("../Images/qbkls/qbkls.png");
     background-repeat: repeat;
     background-color:grey;
-    float:left;
     width:100%;
-    margin:0px;}
-.wrap {width:100%;
-    height:100px;
+    margin:0px;
+}
+
+*  {
+    box-sizing: border-box;
+    margin: 0;
+  }
+.wrap {
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:99;
+    width:100%;
+    height:15%;
     background-color:#ffffff;
     border-bottom-style:solid;
     border-bottom-color:#dddddd;}
 .topbar {
     width:960px;
     margin:auto;
-    height:100px;
+    height:100%;
     background-color:#ffffff;
     border-color:#dddddd;
     position:relative;
@@ -45,10 +58,12 @@ button:hover {background-color:#4aaaa5;}
     border-style:solid;
     border-color:#777777}
 .bg {
+    overflow:auto;
     float:left;
     padding-top:20px;
     padding-bottom:20px;
     width:100%;
+    height:100%;
 }
 .main {box-sizing:border-box;
     background-color:#ffffff;
@@ -59,14 +74,18 @@ button:hover {background-color:#4aaaa5;}
     height:fit-content;
     padding:20px;
     margin:auto;
-    position:relative;
+    margin-top:.5%;
+    position:fixed;
+    top:15%;
+    left:25%;
     overflow:auto;}
 .main::after {
     content: "";
     clear: both;
     display: table;}
-.foot {position:fixed;
-    bottom:0;
+.foot {
+    position:fixed;
+    top:95%;
     left:0;
     background-color:#666666;
     width:100%;
